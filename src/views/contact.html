@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title><%= titulo %></title>
+    
+    <%- include('modules/header.html'); -%>
+</head>
+
+<body>
+    <%- include('modules/navbar.html');-%>
+    <header class="full-image" style="background-image: url('img/paint.jpg')">
+        <div class="overlay"></div>
+        <div class="container-fluid container-absolute text-white">
+            <div class="row align-items-center h-100">
+                <div class="col-md-12 text-center">
+                    <h1 class="display-4">NodeJs</h1>
+                    <p class="lead p-0 m-0"><%= seccion %></p>
+                    <p class="p-0 m-0"><span style="font-size: 12px; color: royalblue;"><%= mensaje %></span></p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <%- include('modules/footer.html'); -%>
+</body>
+
+</html>

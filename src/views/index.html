@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <title><%= titulo %></title>
+    <%- include('modules/header.html'); -%>
+</head>
+
+<body>
+    <%- include('modules/navbar.html'); -%>
+
+    <header class="full-image" style="background-image: url('img/gradient.jpg')">
+        <div class="overlay"></div>
+        <div class="container-fluid container-absolute text-white">
+            <div class="row align-items-center h-100">
+                <div class="col-md-12 text-center">
+                    <h1 class="display-4">NodeJs</h1>
+                    <p class="lead p-0 m-0">Simple page with NodeJs</p>
+                    <p class="p-0 m-0"><span style="font-size: 12px; color: green;"><%= mensaje %></span></p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <%- include('modules/footer.html'); -%>
+</body>
+
+</html>
